@@ -18,8 +18,8 @@ end
 
 def take_a_number (katz_deli, newCustomer)
   katz_deli.push(newCustomer)
-  
+
   position = katz_deli.length
-  
-  puts "Welcome, #{newCustomer}. You are number #{position} in line.
+
+  puts "Welcome, #{newCustomer}. You are number #{position} in line."
 end
